@@ -57,6 +57,12 @@ button {
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: red;
+    opacity: 0.8;
 }
 
 .login-link a {
