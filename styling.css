@@ -101,6 +101,8 @@ button:hover {
 .footer-note {
     font-size: 14px;
     color: gray;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .imgcontainer {
@@ -132,4 +134,55 @@ button:hover {
     font-size: 12px;
     text-align: center;
     margin-top: 10px;
+}
+
+.right-hadding {
+    text-align: center;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    color: gray;
+    gap: 30px;
+
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 30px;
+    color: gray;
+}
+
+.img-01 {
+    display: block;
+    margin-bottom: 0;
+    height: 70px;
+    width: 140px;
+
+
+}
+
+.img-01 img {
+    overflow: hidden;
+    object-fit: contain;
+    height: 60%;
+    width: 60%;
+    padding-left: 30px;
+
+
+}
+
+.img-01 span {
+    width: 140px;
+    margin-top: 8px;
+    display: block;
+    line-height: 1;
+    font-size: 13px;
+    text-align: center;
+
+
 }
