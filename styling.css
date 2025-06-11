@@ -24,6 +24,7 @@ body {
 }
 
 .form-box h2 {
+    margin-top: 120px;
     width: 100%;
     max-width: 350px;
 
@@ -33,6 +34,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
 }
 
 input {
@@ -57,13 +59,15 @@ button {
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
-    transition: 1s;
+    opacity: 1;
+    transition: 1.5s;
 }
 
 button:hover {
-    background-color: red;
     opacity: 0.8;
+    /* cursor: pointer; */
 }
+
 
 .login-link a {
     color: #fff;
@@ -97,4 +101,35 @@ button:hover {
 .footer-note {
     font-size: 14px;
     color: gray;
+}
+
+.imgcontainer {
+    margin-top: 0;
+    padding-top: 0;
+    width: 255px;
+    height: 200px;
+    position: absolute;
+}
+
+.imgcontainer img {
+    overflow: hidden;
+    object-fit: contain;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 7%;
+}
+
+.heading-01 {
+    margin-bottom: 0px;
+    position: relative;
+    top: 14%;
+}
+
+.login-link {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
 }
