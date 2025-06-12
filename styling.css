@@ -186,4 +186,14 @@ button:hover {
     text-align: center;
 
 
+}.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.eye-icon::before {
+    content: 8#128065;
+    font-size: 1.2em;
 }
