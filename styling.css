@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left-panel {
+    background-color: rgb(0, 208, 255);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.form-box h2 {
+    margin-top: 120px;
+    width: 100%;
+    max-width: 350px;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border: radius 5px;
+    ;
+}
+
+.error {
+    background-color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: yellow;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+button:hover {
+    opacity: 0.8;
+    /* cursor: pointer; */
+}
+
+
+.login-link a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.right-panel {
+    width: 50%;
+    padding: 60px 40px;
+}
+
+.right-panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.footer-note {
+    font-size: 14px;
+    color: gray;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.imgcontainer {
+    margin-top: 0;
+    padding-top: 0;
+    width: 255px;
+    height: 200px;
+    position: absolute;
+}
+
+.imgcontainer img {
+    overflow: hidden;
+    object-fit: contain;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 7%;
+}
+
+.heading-01 {
+    margin-bottom: 0px;
+    position: relative;
+    top: 14%;
+}
+
+.login-link {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.right-hadding {
+    text-align: center;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    color: gray;
+    gap: 30px;
+
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 30px;
+    color: gray;
+    
+}
+
+.img-01 {
+    display: block;
+    margin-bottom: 0;
+    height: 70px;
+    width: 140px;
+
+
+}
+
+.img-01 img {
+    overflow: hidden;
+    object-fit: contain;
+    height: 60%;
+    width: 60%;
+    padding-left: 30px;
+
+
+}
+
+.img-01 span {
+    width: 140px;
+    margin-top: 8px;
+    display: block;
+    line-height: 1;
+    font-size: 13px;
+    text-align: center;
+
+
+}
