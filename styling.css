@@ -101,7 +101,7 @@ button:hover {
 .footer-note {
     font-size: 14px;
     color: gray;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -155,6 +155,7 @@ button:hover {
     margin-top: 80px;
     gap: 30px;
     color: gray;
+    
 }
 
 .img-01 {
